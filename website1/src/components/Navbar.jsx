@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 function Navbar() {
   return (
     <>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light p-3">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
             Navbar
@@ -27,6 +27,11 @@ function Navbar() {
               <li class="nav-item">
                 <Link class="nav-link" to="/about">
                   About
+                </Link>
+              </li>
+              <li class="nav-item">
+                <Link class="nav-link" to="/contact">
+                  Contact
                 </Link>
               </li>
               <li class="nav-item dropdown">
