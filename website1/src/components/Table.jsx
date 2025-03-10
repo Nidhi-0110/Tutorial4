@@ -1,20 +1,17 @@
-// import { useState } from "react";
-// import Table from "./About"
-
 function Table({ data }) {
-  // const [formData, setFormData] = useState({ username: "", email: "" });
-  // const [data, setData] = useState([]);
-
   return (
     <div>
       <div className="container mt-5">
         <div className="row">
-          <div className="col-5 m-auto">
+          <div className="col-5">
             <table className="table">
               <thead>
                 <tr>
                   <th>Username</th>
                   <th>Email</th>
+                  <th>Password</th>
+                  <th>MobileNo.</th>
+                  <th>Address</th>
                 </tr>
               </thead>
               <tbody>
@@ -23,6 +20,9 @@ function Table({ data }) {
                     <tr key={index}>
                       <td>{ele.username}</td>
                       <td>{ele.email}</td>
+                      <td>{ele.password}</td>
+                      <td>{ele.mobileNo}</td>
+                      <td>{ele.address}</td>
                     </tr>
                   ))}
               </tbody>

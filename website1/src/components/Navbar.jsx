@@ -29,11 +29,6 @@ function Navbar() {
                   About
                 </Link>
               </li>
-              {/* <li class="nav-item">
-                <Link class="nav-link" to="/table">
-                  Table
-                </Link>
-              </li> */}
               <li class="nav-item dropdown">
                 <a
                   class="nav-link dropdown-toggle"
