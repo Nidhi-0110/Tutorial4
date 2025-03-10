@@ -31,13 +31,11 @@ function App() {
         </div>
         <div className="btn"style={{marginLeft: "20px"}}>
           <button style={{ margin: "5px", padding: " 10px 20px"}}
-            onClick={() => setText(true)}
-            className="px-4 py-2 bg-green-500 text-white rounded-lg hover:bg-green-600">
+            onClick={() => setText(true)}>
             ON
           </button>
           <button style={{ margin: "5px", padding: " 10px 20px"}}
-            onClick={() => setText(false)}
-            className="px-4 py-2 bg-red-500 text-white rounded-lg hover:bg-red-600">
+            onClick={() => setText(false)}>
             OFF
           </button>
         </div>
